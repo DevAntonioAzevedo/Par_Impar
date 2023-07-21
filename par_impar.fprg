@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-20 10:01:18 "/>
+        <attribute name="created" value="VVNFUjtERVNLVE9QLTNOR01JTDU7MjAyMy0wNy0yMDsiMDk6MjY6MTIgIjsyNTcy"/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLTNOR01JTDU7MjAyMy0wNy0yMDsiMTA6MDE6MTggIjsyOzI2NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro qualquer: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;O n&#250;mero &quot; &amp;a&amp; &quot; &#233;: &quot;" newline="True"/>
+            <assign variable="a" expression="a % 2"/>
+            <if expression="a==0">
+                <then>
+                    <output expression="&quot;PAR.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#205;MPAR.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
